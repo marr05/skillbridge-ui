@@ -8,15 +8,13 @@ from collections import Counter
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # --- 1. SETUP ---
-
-# You'll need to run this once to download the stopword list
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Initialize the VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
 
-# Define your keyword themes based on your Affinity Map clusters
+# Define keyword themes based on Affinity Map clusters
 # These are used to categorize each post
 THEMES = {
     'AI_Anxiety': [
@@ -42,7 +40,6 @@ THEMES = {
 }
 
 # --- 2. CONFIGURATION ---
-# !! CHANGE THIS to the name of your output file from the filter_zst_files.py script
 INPUT_FOLDER = '/Users/maitreya/Documents/NEU/CS 5170 - AI for HCI/Code/SkillBridge/reddit_analysis' 
 
 

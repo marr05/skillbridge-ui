@@ -175,14 +175,14 @@ def process_file(input_file, output_file, output_format, from_date, to_date, sin
 			obj = json.loads(line)
 			created = datetime.utcfromtimestamp(int(obj['created_utc']))
 
-            # *** ORIGINAL DATE FILTER LOGIC (UNTOUCHED) ***
+            # *** ORIGINAL DATE FILTER LOGIC ***
             # This will correctly filter lines based on the date range at the top
 			if created < from_date:
 				continue
 			if created > to_date:
 				continue
 
-            # *** NEW KEYWORD FILTER LOGIC ***
+            # *** KEYWORD FILTER LOGIC ***
 			# Combine title, selftext, and body into a single string for searching
 			title = obj.get('title', '')
 			selftext = obj.get('selftext', '')
@@ -198,7 +198,6 @@ def process_file(input_file, output_file, output_format, from_date, to_date, sin
 			
 			if not matched:
 				continue
-            # *** END NEW LOGIC ***
 
 			matched_lines += 1
 			if output_format == "zst":

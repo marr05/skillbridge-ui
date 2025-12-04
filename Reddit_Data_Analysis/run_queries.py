@@ -8,7 +8,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import os
 
 # --- 1. SETUP ---
-# Ensure you have the stopword list downloaded
+# Ensure stopword list is downloaded
 try:
     stop_words = set(stopwords.words('english'))
 except LookupError:
@@ -19,7 +19,7 @@ except LookupError:
 analyzer = SentimentIntensityAnalyzer()
 
 # --- 2. CONFIGURATION ---
-# !! CHANGE THIS to the FOLDER containing your filtered .txt files
+# CHANGE THIS to the FOLDER containing filtered .txt files
 INPUT_FOLDER = r"/Users/maitreya/Documents/NEU/CS 5170 - AI for HCI/Code/SkillBridge/reddit_analysis"
 
 # Define your keyword themes based on your Affinity Map clusters
@@ -47,7 +47,6 @@ THEMES = {
 }
 
 # --- 3. HELPER FUNCTIONS ---
-
 def load_data_from_folder(folder_path):
     """Loads all .txt or .jsonl files from a folder into a list of dictionaries."""
     data = []
@@ -87,7 +86,7 @@ def clean_text_for_ngrams(text, theme_keywords):
     """Cleans text for N-gram frequency analysis."""
     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
     words = text.split()
-    # Remove stopwords, BUT keep our important theme keywords
+    # Remove stopwords, BUT keep important theme keywords
     cleaned_words = [
         w for w in words 
         if w not in stop_words or w in theme_keywords
@@ -135,7 +134,6 @@ def run_sentiment_analysis(sentiment_series):
 
 
 # --- 4. MAIN EXECUTION ---
-
 def main():
     # --- Step 1: Load All Data ---
     print(f"Loading all files from folder: {INPUT_FOLDER}...")

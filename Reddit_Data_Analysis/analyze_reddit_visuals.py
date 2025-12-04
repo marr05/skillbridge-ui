@@ -13,8 +13,6 @@ from wordcloud import WordCloud
 import numpy as np
 
 # --- 1. SETUP ---
-
-# You'll need to run this once to download the stopword list
 try:
     nltk.data.find('corpora/stopwords')
 except LookupError:
@@ -25,7 +23,7 @@ stop_words = set(stopwords.words('english'))
 # Initialize the VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
 
-# Define your keyword themes based on your Affinity Map clusters
+# Define keyword themes based on Affinity Map clusters
 THEMES = {
     'AI_Anxiety': [
         'ai', 'automation', 'replaced', 'displaced', 'obsolete', 
@@ -50,9 +48,7 @@ THEMES = {
 }
 
 # --- 2. CONFIGURATION ---
-# !! CHANGE THIS to the name of your output file from the filter_zst_files.py script
 INPUT_FOLDER = '/Users/maitreya/Documents/NEU/CS 5170 - AI for HCI/Code/SkillBridge/reddit_analysis' 
-
 
 def load_data(folder_path):
     """Loads all .txt (JSONL) files from a folder into a list of dictionaries."""
@@ -85,7 +81,7 @@ def clean_text_for_ngrams(text):
     """Cleans text for N-gram frequency analysis."""
     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
     words = text.split()
-    # Remove stopwords, BUT keep our important theme keywords
+    # Remove stopwords, BUT keep important theme keywords
     theme_keywords = set(kw for kws in THEMES.values() for kw in kws)
     cleaned_words = [
         w for w in words 
@@ -102,7 +98,7 @@ def categorize_text(text):
     return found_themes if found_themes else ['Other']
 
 def generate_visualizations(df, df_themes_exploded, all_words):
-    """Generates and saves advanced visualizations."""
+    """Generates and saves visualizations."""
     print("\n Generating Visualizations: ")
     
     # Set the style
@@ -122,7 +118,6 @@ def generate_visualizations(df, df_themes_exploded, all_words):
     
     # 2. Sentiment Boxplot by Theme (Insight: Shows emotional range per topic)
     plt.figure(figsize=(12, 8))
-    # Remove 'Other' for clearer analysis of your specific themes
     filtered_sentiment = df_themes_exploded[df_themes_exploded['themes'] != 'Other']
     
     sns.boxplot(x='themes', y='sentiment', data=filtered_sentiment, palette="coolwarm")
