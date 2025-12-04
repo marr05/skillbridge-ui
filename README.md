@@ -21,7 +21,7 @@ Results of the analysis are stored in Reddit_Data_Analysis/Results folder.
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, ensure you have the following installed on your machine:
 
@@ -75,7 +75,7 @@ git --version
 
 ---
 
-## 🚀 Quick Start (5 minutes)
+## Quick Start (5 minutes)
 
 ### Step 1: Clone the Repository
 
@@ -119,7 +119,7 @@ The terminal will display a local URL. Open it in your browser:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 skillbridge-ui/
@@ -137,7 +137,7 @@ skillbridge-ui/
 
 ---
 
-## 🎯 Features to Explore
+## Features to Explore
 
 ### Home Page
 - **Two Career Pathways:** QA Analyst → Software Engineer, Data Analyst → ML Engineer
@@ -162,7 +162,7 @@ skillbridge-ui/
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Issue: `npm install` fails
 
@@ -214,19 +214,9 @@ npm install
 
 ---
 
-## 📱 Testing Responsive Design
+## Design Decisions
 
-To test mobile view in your browser:
-
-1. Open Developer Tools (F12 or Cmd+Option+I on Mac)
-2. Click the "Toggle Device Toolbar" icon (or Ctrl+Shift+M)
-3. Select a mobile device preset or resize manually
-
----
-
-## 🎨 Design Decisions
-
-This prototype implements three key design patterns derived from user research:
+This project implements three key design patterns derived from user research:
 
 | Pattern | Research Origin | Implementation |
 |---------|-----------------|----------------|
@@ -236,15 +226,13 @@ This prototype implements three key design patterns derived from user research:
 
 ---
 
-## 📚 Related Documentation
+## Related Documentation
 
-- [Project Presentation (PDF)](./docs/presentation.pdf)
-- [User Research Findings](./docs/research.pdf)
-- [MVP Pathways Data](./docs/pathways.pdf)
+- Present in Reddit_Data_Analysis/Results
 
 ---
 
-## ⚙️ Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -253,25 +241,3 @@ This prototype implements three key design patterns derived from user research:
 | `npm run preview` | Preview production build |
 
 ---
-
-## 💻 Tested On
-
-- macOS Tahoe (M4 MacBook)
-- Windows 11
-- Ubuntu 22.04
-- Chrome, Firefox, Safari (latest versions)
-
----
-
-## 📧 Contact
-
-If you encounter any issues running this prototype, please contact:
-
-**Maitreya Darokar**  
-Email: maitreya.mmd@gmail.com
-
----
-
-## 📄 License
-
-This project is submitted as coursework for CS 5170 at Northeastern University.
