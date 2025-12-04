@@ -6,6 +6,19 @@ A human-centered AI career navigation tool designed to help mid-career professio
 **Author:** Maitreya Darokar  
 **Term:** Fall 2025
 
+
+Reddit Data Analysis:
+Data source: https://academictorrents.com/details/1614740ac8c94505e4ecb9d88be8bed7b6afddd4
+
+I extracted data (posts and comments) from only the essential subreddits (a total of 12) which directly related to jobs, careers, career advice, and job switching.
+
+Results of the analysis are stored in Reddit_Data_Analysis/Results folder.
+
+1. reddit_data.py - To extract data from zst files from the above mentioned source. Obtained from the source repository, updated with new logic for better processing.
+2. analyze_reddit.py  - to extract themes using Sentiment analysis and n-grams (bi-grams)
+3. analyze_reddit_visuals.py - same file, but with added visualizations (results stored in Reddit_Data_Analysis/Results folder)
+4. run_queries.py - ran some queries (mentioned in the SkillBridge Reddit Analysis pdf in Results folder) to extract information and derive insights about how community feels in regards to certain topics.
+
 ---
 
 ## 📋 Prerequisites
