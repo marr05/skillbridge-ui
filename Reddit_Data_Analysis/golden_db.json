@@ -1,0 +1,192 @@
+{
+  "resources": [
+    {
+      "resource_id": "r_001",
+      "title": "The Odin Project: Foundations",
+      "url": "https://www.theodinproject.com/paths/foundations/courses/foundations",
+      "platform": "The Odin Project",
+      "cost": "Free",
+      "type": "Interactive Curriculum",
+      "description": "Teaches all the fundamentals of web development: HTML, CSS, JavaScript, and Git.",
+      "why_it_matters": "Your research showed users are stuck in a 'maze' of options. The community overwhelmingly vets this as the best 'Free-First' curriculum for building real-world projects and learning the critical tool (Git) that employers demand.",
+      "roi_tags": ["Project-Based", "Free-First", "Community-Vetted"]
+    },
+    {
+      "resource_id": "r_002",
+      "title": "The Odin Project: Full Stack JavaScript",
+      "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+      "platform": "The Odin Project",
+      "cost": "Free",
+      "type": "Interactive Curriculum",
+      "description": "The complete curriculum to become a Full Stack Engineer, covering React, Node.js, and databases.",
+      "why_it_matters": "This is your 'bootcamp' for free. It directly teaches the 'AI-resistant' role of 'Software Engineer' that your analysis identified as the #1 target for proactive users.",
+      "roi_tags": ["Project-Based", "Free-First", "Community-Vetted"]
+    },
+    {
+      "resource_id": "r_003",
+      "title": "Build a Full-Stack 'Experience' Project",
+      "url": "https://www.theodinproject.com/lessons/nodejs-final-project",
+      "platform": "Self-Directed",
+      "cost": "Free",
+      "type": "Portfolio Project",
+      "description": "A final capstone project, such as a mock e-commerce site or social media clone.",
+      "why_it_matters": "Your Reddit analysis proved 'personal projects' are the community's answer to 'no work experience'. This is the single most important item for your portfolio to get a job.",
+      "roi_tags": ["Project-Based", "Experience-Builder"]
+    },
+    {
+      "resource_id": "r_004",
+      "title": "Kaggle: Intro to Machine Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "platform": "Kaggle",
+      "cost": "Free",
+      "type": "Interactive Course",
+      "description": "Learn the core ideas in machine learning, and build your first models in Python.",
+      "why_it_matters": "This is the first step up from 'stuck' Data Analyst to 'AI-resistant' ML Engineer. It's a free, hands-on, community-vetted resource to fill your skill gap.",
+      "roi_tags": ["Project-Based", "Free-First", "Certification-Path"]
+    },
+    {
+      "resource_id": "r_005",
+      "title": "Kaggle: Intermediate Machine Learning",
+      "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "platform": "Kaggle",
+      "cost": "Free",
+      "type": "Interactive Course",
+      "description": "Handle messy data, build more accurate models, and tackle advanced ML concepts.",
+      "why_it_matters": "This course moves you beyond simple analysis and into building robust, predictive models—a key skill for 'job security' against automation.",
+      "roi_tags": ["Project-Based", "Free-First", "Certification-Path"]
+    },
+    {
+      "resource_id": "r_006",
+      "title": "Kaggle: Intro to Deep Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+      "platform": "Kaggle",
+      "cost": "Free",
+      "type": "Interactive Course",
+      "description": "Learn to build neural networks and make your models 'smarter' than ever.",
+      "why_it_matters": "This is the core 'AI' skill. It directly moves you into the advanced 'Machine Learning' role that your analysis showed proactive users are targeting.",
+      "roi_tags": ["Project-Based", "Free-First", "Certification-Path"]
+    },
+    {
+      "resource_id": "r_007",
+      "title": "Kaggle Project: Customer Churn Prediction",
+      "url": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+      "platform": "Kaggle",
+      "cost": "Free",
+      "type": "Portfolio Project",
+      "description": "Use a real-world dataset to predict which customers are most likely to leave.",
+      "why_it_matters": "This is your new 'experience' project. Instead of just *reporting* on data, you are *predicting* outcomes. This is the key difference between an analyst and an ML engineer.",
+      "roi_tags": ["Project-Based", "Experience-Builder"]
+    },
+    {
+      "resource_id": "r_008",
+      "title": "Deploy an ML Model with FastAPI",
+      "url": "https://www.youtube.com/watch?v=A-i4AzeYg-E",
+      "platform": "YouTube",
+      "cost": "Free",
+      "type": "Video Tutorial",
+      "description": "A tutorial on how to deploy a scikit-learn model as a production-ready API.",
+      "why_it_matters": "This is the final, most crucial step (MLOps). It proves you are an *engineer*, not just an analyst. You can build a tool the company can actually use.",
+      "roi_tags": ["Free-First", "Visual Learning", "MLOps"]
+    },
+    {
+      "resource_id": "r_009",
+      "title": "freeCodeCamp: Responsive Web Design",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "platform": "freeCodeCamp",
+      "cost": "Free",
+      "type": "Interactive Curriculum",
+      "description": "Learn HTML and CSS by building 15 small projects and 5 certification projects.",
+      "why_it_matters": "For a total beginner, this is the best 'Free-First' starting point. Its interactive, 'hand-holding' approach is perfect for building initial confidence before moving to more complex topics.",
+      "roi_tags": ["Project-Based", "Free-First", "Certification-Path"]
+    },
+    {
+      "resource_id": "r_010",
+      "title": "freeCodeCamp: JS Algorithms & Data Structures",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+      "platform": "freeCodeCamp",
+      "cost": "Free",
+      "type": "Interactive Curriculum",
+      "description": "Learn core JavaScript and data structures to prepare for technical interviews.",
+      "why_it_matters": "After building projects, this certification drills you on the exact 'interview' questions needed to get a job, directly addressing the 'entry level' barrier.",
+      "roi_tags": ["Project-Based", "Free-First", "Certification-Path"]
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "p_001",
+      "title": "QA Engineer ➔ Software Engineer",
+      "target_persona_desc": "For 'Sample 2' (QA tester) who wants to change careers and is stuck in the 'maze of courses'.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Learn the Foundations (HTML, CSS, Git)",
+          "resource_ids": ["r_001"]
+        },
+        {
+          "step": 2,
+          "title": "Master Full-Stack JavaScript (React & Node.js)",
+          "resource_ids": ["r_002"]
+        },
+        {
+          "step": 3,
+          "title": "Build Your 'Experience' Project",
+          "resource_ids": ["r_003"]
+        }
+      ]
+    },
+    {
+      "pathway_id": "p_002",
+      "title": "Data Analyst ➔ Machine Learning Engineer",
+      "target_persona_desc": "For 'Sample 5' (Stuck DA) who already knows SQL/Python and wants to upskill into an AI-resistant role.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Master Core Machine Learning",
+          "resource_ids": ["r_004", "r_005"]
+        },
+        {
+          "step": 2,
+          "title": "Learn Deep Learning (Neural Networks)",
+          "resource_ids": ["r_006"]
+        },
+        {
+          "step": 3,
+          "title": "Build Your 'Experience' Project",
+          "resource_ids": ["r_007"]
+        },
+        {
+          "step": 4,
+          "title": "Learn to Deploy Your Model (MLOps)",
+          "resource_ids": ["r_008"]
+        }
+      ]
+    },
+    {
+      "pathway_id": "p_003",
+      "title": "Non-Tech ➔ Software Engineer",
+      "target_persona_desc": "For 'Sample 3' (Biomedical degree) who is deciding between a masters or self-study and needs a clear, trusted path.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Learn the Basics (Interactive)",
+          "resource_ids": ["r_009"]
+        },
+        {
+          "step": 2,
+          "title": "Learn to Be an Engineer (Real-World)",
+          "resource_ids": ["r_001"]
+        },
+        {
+          "step": 3,
+          "title": "Build Your Full-Stack 'Experience'",
+          "resource_ids": ["r_002"]
+        },
+        {
+          "step": 4,
+          "title": "Prepare for Technical Interviews",
+          "resource_ids": ["r_010"]
+        }
+      ]
+    }
+  ]
+}
