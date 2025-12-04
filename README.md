@@ -255,7 +255,7 @@ This prototype implements three key design patterns derived from user research:
 If you encounter any issues running this prototype, please contact:
 
 **Maitreya Darokar**  
-Email: darokar.m@northeastern.edu
+Email: maitreya.mmd@gmail.com
 
 ---
 
