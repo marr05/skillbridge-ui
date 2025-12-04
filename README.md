@@ -243,7 +243,7 @@ This prototype implements three key design patterns derived from user research:
 
 ## 💻 Tested On
 
-- macOS Tahow (M4 MacBook)
+- macOS Tahoe (M4 MacBook)
 - Windows 11
 - Ubuntu 22.04
 - Chrome, Firefox, Safari (latest versions)
