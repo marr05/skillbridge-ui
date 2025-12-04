@@ -1,4 +1,4 @@
-# SkillBridge AI - High Fidelity Prototype
+# SkillBridge AI
 
 A human-centered AI career navigation tool designed to help mid-career professionals overcome decision paralysis and transition to AI-resistant careers.
 
